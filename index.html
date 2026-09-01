@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhonghan Xue - Personal Homepage</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fcfcfc;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 2rem;
+            background-color: #ddd; /* Placeholder color */
+        }
+        h1 { margin: 0 0 0.5rem 0; color: #1a1a1a; }
+        h2 { border-bottom: 1px solid #eaeaea; padding-bottom: 0.5rem; margin-top: 2rem; color: #2c3e50; }
+        h3 { margin-bottom: 0.2rem; }
+        p { margin: 0.5rem 0; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .contact-info { font-size: 0.95rem; color: #555; }
+        .news-item, .edu-item, .pub-item, .fund-item { margin-bottom: 1.5rem; }
+        .date { font-weight: bold; color: #555; }
+        .highlight { color: #d73a49; font-weight: bold; }
+        .tag { font-size: 0.8rem; background: #e1e4e8; padding: 2px 6px; border-radius: 3px; margin-right: 5px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- 请将 profile.jpg 替换为你的真实照片 -->
+        <img src="profile.jpg" alt="Zhonghan Xue" class="profile-img">
+        <div>
+            <h1>Zhonghan Xue (薛仲晗)</h1>
+            <p><strong>Upcoming AToUT Fellow</strong> <br>
+            Institut de Mécanique des Fluides de Toulouse (IMFT), France</p>
+            <div class="contact-info">
+                Email: <a href="mailto:zhonghan.xue@foxmail.com">zhonghan.xue@foxmail.com</a><br>
+                ORCID: <a href="https://orcid.org/0000-0001-8938-6891" target="_blank">0000-0001-8938-6891</a><br>
+                <!-- Github: <a href="https://github.com/YourUsername" target="_blank">YourUsername</a> -->
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a researcher in Fluid Mechanics, focusing on the development of high-fidelity sharp-interface methods and their applications in binary solidification/melting and surfactant-laden flows. I received my Ph.D. from Xi’an Jiaotong University (XJTU) in January 2026 under the supervision of Prof. Jie Zhang. Starting in February 2027, I will join IMFT in France as an AToUT Fellow.</p>
+    </section>
+
+    <section id="news">
+        <h2>Recent News</h2>
+        <div class="news-item">
+            <span class="date">[02.2027]</span> I will join IMFT (Toulouse, France) as an <strong>AToUT Fellow</strong> to work on the project COBRAS.
+        </div>
+        <div class="news-item">
+            <span class="date">[01.2026]</span> Successfully defended my Ph.D. in Fluid Mechanics at Xi’an Jiaotong University!
+        </div>
+        <div class="news-item">
+            <span class="date">[2025]</span> Honored to receive the National Scholarship for Ph.D. students, the highest academic honor in China.
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="edu-item">
+            <strong>Ph.D. in Fluid Mechanics</strong> <span style="float:right;">09.2020 – 01.2026</span><br>
+            Xi’an Jiaotong University (XJTU), China<br>
+            <em>Thesis:</em> Development of sharp interface method for modeling binary solid–liquid phase change problems and its numerical studies<br>
+            <em>Supervisor:</em> Prof. Jie Zhang
+        </div>
+        <div class="edu-item">
+            <strong>Visiting Ph.D. Researcher</strong> <span style="float:right;">09.2023 – 06.2024</span><br>
+            Institut de Mécanique des Fluides de Toulouse (IMFT), France<br>
+            <em>Host:</em> Prof. Jacques Magnaudet
+        </div>
+        <div class="edu-item">
+            <strong>Diplôme d’Ingénieur (M.Eng.)</strong> <span style="float:right;">09.2018 – 09.2020</span><br>
+            École Centrale de Lyon (ECL), France<br>
+            <em>Major:</em> General Engineering
+        </div>
+        <div class="edu-item">
+            <strong>B.Eng. in Engineering Mechanics</strong> <span style="float:right;">09.2016 – 09.2020</span><br>
+            Xi’an Jiaotong University (XJTU), China
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Major Publications</h2>
+        
+        <div class="pub-item">
+            <span class="tag">JFM</span>
+            <strong>Xue, Z.</strong> & Zhang, J. (2026). Wake transitions and melting dynamics of a translating sphere in warm liquid. <em>Journal of Fluid Mechanics</em>, 1029, A22. <a href="https://doi.org/10.1017/jfm.2026.11114" target="_blank">[DOI]</a>
+        </div>
+        
+        <div class="pub-item">
+            <span class="tag">JCP (Under Review)</span>
+            <strong>Xue, Z.</strong>, Magnaudet, J. & Zhang, J. (2025). A sharp and conservative method for modeling interfacial flows with insoluble surfactants in the framework of a geometric volume-of-fluid approach. <em>Submitted to Journal of Computational Physics</em>. <a href="https://doi.org/10.48550/arXiv.2507.09680" target="_blank">[arXiv]</a>
+        </div>
+
+        <div class="pub-item">
+            <span class="tag">JFM</span>
+            <strong>Xue, Z.</strong>, Zhang, J. & Ni, M.-J. (2024). Flow regimes in a melting system composed of binary fluid: transition from penetrative convection to diffusion. <em>Journal of Fluid Mechanics</em>, 998, A14. <a href="https://doi.org/10.1017/jfm.2024.905" target="_blank">[DOI]</a>
+        </div>
+
+        <div class="pub-item">
+            <span class="tag">JCP</span>
+            <strong>Xue, Z.</strong>, Zhao, S., Ni, M.-J. & Zhang, J. (2023). Three-dimensional sharp and conservative VOF method for the simulation of binary solidification. <em>Journal of Computational Physics</em>, 491, 112380. <a href="https://doi.org/10.1016/j.jcp.2023.112380" target="_blank">[DOI]</a>
+        </div>
+
+        <div class="pub-item">
+            <span class="tag">JCP</span>
+            Limare, A., Popinet, S., Josserand, C., <strong>Xue, Z.</strong> & Ghigo, A. (2023). A hybrid level-set / embedded boundary method applied to solidification-melt problems. <em>Journal of Computational Physics</em>, 474, 111829. <a href="https://doi.org/10.1016/j.jcp.2022.111829" target="_blank">[DOI]</a>
+        </div>
+    </section>
+
+    <section id="funding-awards">
+        <h2>Funding & Selected Awards</h2>
+        <ul>
+            <li><strong>NSFC Fundamental Research Program for Young Ph.D. Students</strong> (No. 124B2046), Principal Investigator, €37,000, 2024–2026.</li>
+            <li><strong>National Scholarship (Ph.D.)</strong>, Highest academic honor in China (Top 2%), 2025.</li>
+            <li><strong>CSC Scholarship</strong> for Sino-French "4+4" Double Degree Program, 2018–2020.</li>
+            <li><strong>First-class Academic Scholarship (XJTU)</strong>, 2024, 2021, 2020, 2017.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p style="text-align: center; font-size: 0.9rem; color: #777; border-top: 1px solid #eaeaea; padding-top: 2rem; margin-top: 2rem;">
+            &copy; 2026 Zhonghan Xue. Last updated: September 2026.
+        </p>
+    </footer>
+
+</body>
+</html>
